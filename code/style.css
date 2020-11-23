@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../images/index-background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav img{
+    background-color: rgba(255, 255, 255, 0.5);    
+    }
+
+main{
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.transbox {
+    width: 65%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.transbox button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 600;
+    background-color: rgb(193, 154, 107);
+}
+
+.transbox button:hover{
+    background-color: antiquewhite;
+    color: rgb(167, 5, 5);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.transbox button img{
+    padding-right: 1%;
+    height: 50px;
+    width: 50px;
+}
+
+main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1.5px rgb(193, 154, 107);
+    text-decoration: underline;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: 'Consolas';
+    padding: 1.2%;
+}
+
+.main-slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 600px;
+    width: auto; 
+    max-width: 600px;  }
+
+@media (max-width:800px){
+    .main-slideshow{
+        height:auto;
+        max-width: 400px;
+    }
+}
+
+@media (max-width:800px){
+    nav{
+        height: 500px;
+    }
+}
+
+@media (max-width:800px){
+    .transbox button{
+        width: 100%;
+        height: auto;
+        
+    }
+}

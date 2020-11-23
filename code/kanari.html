@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA_Compatible" content="ie=edge">
+  <meta name="description" content="Τεχνικό γραφείο πολιτικών μηχανικών">
+  <meta name="keywords" content="Πολιτικός, Μηχανικός, Αρχιτέκτονας, Τεχνικό, Γραφείο, Σπίτι, Μελέτη, Πολυκατοικία">
+  <title>ΠΟΥΡΛΙΩΤΗΣ - Γκαλερι</title>
+  <link rel="icon" href="../images/favicon.png" type="image/png" sizes="20x16">
+  <link rel="stylesheet" href="headerFooter.css">
+  <link rel="stylesheet" href="DropDownNavBar.css">
+  <link rel="stylesheet" href="slideshow.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+  <div>
+    <header>
+
+      <div class="flex-container">
+
+          <div class="navbar">
+            <div class="dropdown">
+              
+              <button class="dropbtn"> <img src="../images/menu_pic.png" alt="MENU">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              
+              <div class="dropdown-content">
+                <a href="../index.html">ΑΡΧΙΚΗ</a>
+                <a href="about.html">ΣΧΕΤΙΚΑ Μ' ΕΜΑΣ</a>
+                <a href="services.html">ΥΠΗΡΕΣΙΕΣ</a>
+                <a href="gallery.html">ΓΚΑΛΕΡΙ</a>
+                <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+              </div>
+            </div>
+          </div>     
+        
+        <div class="logo">
+           <a href="../index.html">
+            <img src="../images/logo.JPG" alt="LOGO" style="height: auto; width:100%;">                
+           </a>        
+        </div>
+
+          <div class="drive">
+
+            <a href="https://goo.gl/maps/sdFgYfxugw3D2zCm9" target="_blank">
+              <button class="btn"><i class="material-icons">room</i> ΠΟΥ ΕΙΜΑΣΤΕ</button>
+            </a> 
+              
+             <a href="tel:6972127553">
+              <button class="btn"><i class="material-icons">phone</i> ΚΑΛΕΣΤΕ ΜΑΣ</button>
+            </a>
+  
+          </div>      
+      
+      </div>
+    </header>
+
+    <main>
+
+        <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/1.JPG">
+    </div>
+  
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/2.JPG">
+    </div>
+  
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/3.JPG">
+    </div>
+  
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/4.JPG">
+    </div>
+  
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/5.JPG">
+    </div>
+  
+    <div class="mySlides">
+        <img src="../images/gallery/athina/kanari/6.JPG">
+    </div>
+
+    <div class="mySlides">
+          <img src="../images/gallery/athina/kanari/7.JPG">
+    </div>
+
+    <div class="mySlides">
+          <img src="../images/gallery/athina/kanari/8.JPG">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/1.JPG" onclick="currentSlide(1)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/2.JPG" onclick="currentSlide(2)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/3.JPG" onclick="currentSlide(3)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/4.JPG" onclick="currentSlide(4)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/5.JPG" onclick="currentSlide(5)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/6.JPG" onclick="currentSlide(6)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/7.JPG" onclick="currentSlide(7)" alt="">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../images/gallery/athina/kanari/8.JPG" onclick="currentSlide(8)" alt="">
+      </div>
+
+
+    </div>
+  </div>
+    </main>
+</div>
+
+<script src="gallery.js"></script>
+
+</body>
+</html>

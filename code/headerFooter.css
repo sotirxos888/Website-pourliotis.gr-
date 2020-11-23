@@ -1,0 +1,80 @@
+header{
+    background-color: rgb(252, 252, 252);
+    margin: 0px;
+    padding: 0px;    
+}
+
+.logo{
+    width:40%;
+}
+
+/*Fixing the navbar, logo, headbuttons on the same line*/
+.flex-container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+@media (max-width:800px){
+    .logo{
+        width: 65%;
+        padding-top: 5px;
+    }
+}
+
+/*HeadButtons*/
+.drive{
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: baseline;
+  }
+
+  .drive a{    
+    color: black;
+    padding: 8px;
+}
+
+.btn{
+  width: 100%;
+  background-color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-stretch: wider;
+}
+
+@media (max-width: 800px) {                  
+  .btn {
+     
+     font-size: 0px;
+  }
+}
+
+@media (max-width: 800px) {                  
+  .drive {
+     padding-top: 0px;
+     padding-right: 10px;
+  }
+}
+
+footer{
+  background-color: rgb(158, 156, 156,0.3);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.flex-container pre{
+  padding: 1.5px;
+}
